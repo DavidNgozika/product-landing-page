@@ -15,7 +15,7 @@ body {
     justify-content: space-between;
     position: sticky;
     top: 0;
-    padding: 0 2rem;
+    padding: 0 0.75rem;
     background-color: white;
     box-shadow: 0 1px 10px #333;
 }
@@ -31,6 +31,7 @@ body {
 }
 
 #main-heading {
+    font-size: 120%;
     font-style: italic;
 }
 
@@ -50,4 +51,48 @@ body {
 
 #nav-link-container {
     display: none;
+}
+
+#hero {
+    padding-top: 4rem;
+    height: 40vh;
+    background-color: rgba(0, 0, 0, 0.65);
+    background-image: url("images/Hero.jpg");
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+    width: 90%;
+}
+
+.form-element {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#email {
+    padding: 0.75rem;
+    width: 100%;
+    margin-bottom: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+#submit {
+    padding: 0.75rem;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #396;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
 }
