@@ -99,3 +99,30 @@ body {
     border-radius: 5px;
     border: none;
 }
+
+#instruments {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-header {
+    color: #333;
+    font-size: 200%;
+    font-style: italic;
+    margin: 3rem 0 1.75rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 2px solid #333;
+}
+
+.description {
+    text-align: center;
+    color: #444;
+    width: 90%;
+    word-spacing: 0.15rem;
+    letter-spacing: 0.125rem;
+}
+
+#section-img {
+    width: 100%;
+}
