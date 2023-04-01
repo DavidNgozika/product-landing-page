@@ -9,3 +9,45 @@ html {
 body {
     margin: 0;
 }
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    padding: 0 2rem;
+    background-color: white;
+    box-shadow: 0 1px 10px #333;
+}
+
+#logo-container {
+    display: flex;
+    align-items: center;
+}
+
+#header-img {
+    height: 50px;
+    width: 50px;
+}
+
+#main-heading {
+    font-style: italic;
+}
+
+#nav-bar {
+    display: flex;
+    align-items: center;
+}
+
+#menu-icon {
+    border: none;
+    outline: none;
+    padding: 0;
+    background-color: transparent;
+    font-size: 250%;
+    cursor: pointer;
+}
+
+#nav-link-container {
+    display: none;
+}
