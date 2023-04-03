@@ -12,7 +12,7 @@
         <div id="logo-container">
             <div id="img-container">
                 <img 
-                    id="logo" 
+                    id="header-img" 
                     src="images/guitar-logo.png" 
                     alt="guitar" 
                 />
@@ -21,13 +21,27 @@
         </div>
         <nav id="nav-bar">
             <ul id="nav-link-container">
-                <li class="nav-link">Instruments</li>
-                <li class="nav-link">Artists</li>
-                <li class="nav-link">Learn</li>
-                <li class="nav-link">Shop</li>
+                <li class="nav-link">
+                    <a href="#instruments">Instruments</a>
+                </li>
+                <li class="nav-link">
+                    <a href="#guitars">Guitars</a>
+                </li>
+                <li class="nav-link">
+                    <a href="#video">Video</a>
+                </li>
+                <li class="nav-link">
+                    <a href="#shop">Shop</a>
+                </li>
             </ul>
-            <div id="menu-icon-container">
+            <div id="dropdown">
                 <button id="menu-icon">&#9776;</button>
+                <div id="dropdown-links">
+                    <a href="#instruments">Instruments</a>
+                    <a href="#guitars">Guitars</a>
+                    <a href="#video">Video</a>
+                    <a href="#shop">Shop</a>
+                </div>
             </div>
         </nav>
     </header>
@@ -73,7 +87,7 @@
 
     <section>
         <div id="block-description">
-            <h2 class="section-header">Guitars</h2>
+            <h2 id="guitars" class="section-header">Guitars</h2>
             <p class="description">
                 There are guitars with different body shapes, sizes
                 and use, They all have unique functionality and are hand-made
@@ -164,7 +178,7 @@
     </section>
 
     <section id="shop-section">
-        <h2 class="section-header shop">Shop</h2>
+        <h2 id="shop" class="section-header shop">Shop</h2>
         <div id="accessories">
             <h3 class="section-header-mini">Accessories</h3>
             <div>
