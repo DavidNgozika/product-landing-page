@@ -340,8 +340,17 @@ body {
         padding: 0 0.5rem;
     }
 
+    .elements .description {
+        margin: 0;
+    }
+
     .even {
         flex-direction: row-reverse;
+    }
+
+    #video {
+        width: 75vw;
+        margin-top: 4rem;
     }
 
     .figures {
