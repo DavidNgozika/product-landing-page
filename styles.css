@@ -237,6 +237,7 @@ body {
 .contact-details p {
     font-size: 120%;
     padding: 0.5rem 0;
+    cursor: pointer;
 }
 
 .social {
@@ -359,6 +360,39 @@ body {
     }
 
     .figure {
-        width: 40vw;
+        width: 35vw;
+    }
+}
+
+@media (min-width: 992px) {
+    #form {
+        width: 45%;
+    }
+
+    .elements {
+        width: 75%;
+    }
+
+    .elements img {
+        width: 35vw;
+    }
+
+    .figure {
+        width: 22vw;
+        margin: 0.75rem;
+    }
+
+    .contact-details {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .contact-details div, .contact-details p {
+        padding: 0 1rem;
+    }
+
+    .follow {
+        display: flex;
     }
 }
