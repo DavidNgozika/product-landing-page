@@ -281,3 +281,15 @@ body {
 .copyright {
     font-weight: bold;
 }
+
+@media (min-width: 600px) {
+    #form {
+        width: 65%;
+    }
+
+    .figure {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
