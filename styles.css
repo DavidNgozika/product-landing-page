@@ -308,6 +308,12 @@ body {
         transition: all 200ms ease-in-out;
     }
 
+    img.instruments {
+        display: block;
+        margin: 0 auto;
+        width: 70%;
+    }
+
     .description {
         width: 45%;
     }
@@ -328,5 +334,12 @@ body {
         flex-direction: row-reverse;
     }
 
+    .figures {
+        display: flex;
+        flex-wrap: wrap;
+    }
 
+    .figure {
+        width: 40vw;
+    }
 }
