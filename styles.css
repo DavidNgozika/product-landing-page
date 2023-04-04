@@ -157,6 +157,7 @@ body {
     letter-spacing: 0.125rem;
     border: 2px solid #888;
     padding: 1rem;
+    margin: 2rem auto 0;
 }
 
 .section-img {
@@ -280,10 +281,6 @@ body {
         display: block;
         width: 70vw;
         margin: 0 auto;
-    }
-
-    .elements .description {
-        margin: 2rem auto 0;
     }
 }
 
